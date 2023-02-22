@@ -1,0 +1,23 @@
+.container{
+     margin: 50px auto;
+     border: 1px solid silver;
+     border-radius: 10px;
+     width: fit-content;
+     background-color: #f6f6f6;
+}
+
+.input{
+     width: 300px;
+     margin-top: 50px;
+     padding: 5px;
+     border: 1px solid silver;
+     border-radius: 5px;
+     background-color: #f6f6f6;
+     height: 20px;
+     transition: all .3s ease;
+}
+.input:focus{
+     background-color: #fff;
+     outline: none;
+     box-shadow: rgba(74, 74, 74, .24) 0px 3px 8px;
+}
